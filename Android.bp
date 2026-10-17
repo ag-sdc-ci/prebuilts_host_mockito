@@ -13,19 +13,22 @@ java_library_host {
     static_libs: ["mockito"],
 }
 
-java_library_host {
+java_library {
     name: "mockito-core",
     static_libs: ["mockito"],
+    host_supported: true,
 }
 
-java_library_host {
+java_library {
     name: "mockito-api",
     static_libs: ["mockito"],
+    host_supported: true,
 }
 
-java_library_host {
+java_library {
     name: "mockito-inline",
     static_libs: ["mockito"],
+    host_supported: true,
 }
 
 java_import_host {
