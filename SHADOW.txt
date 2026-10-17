@@ -1,0 +1,6 @@
+shadow prebuilt repo: mockito (host)
+  aur package: mockito (PKGBUILD build, any)
+  registry: arch/mockito v2.21.0-1
+  api-level: 34 (branch 34-20261016; JVM jars are API-agnostic)
+  layout: .pkg.tar.zst blobs at root, jars in lib64/
+  date: 2026-10-16

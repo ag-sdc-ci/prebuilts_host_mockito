@@ -1,0 +1,39 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_import {
+    name: "mockito",
+    jars: ["lib64/mockito.jar"],
+    host_supported: true,
+}
+
+java_library_host {
+    name: "mockito-host",
+    static_libs: ["mockito"],
+}
+
+java_library_host {
+    name: "mockito-core",
+    static_libs: ["mockito"],
+}
+
+java_library_host {
+    name: "mockito-api",
+    static_libs: ["mockito"],
+}
+
+java_library_host {
+    name: "mockito-inline",
+    static_libs: ["mockito"],
+}
+
+java_import_host {
+    name: "mockito-byte-buddy",
+    jars: ["lib64/mockito-byte-buddy.jar"],
+}
+
+java_import_host {
+    name: "mockito-byte-buddy-agent",
+    jars: ["lib64/mockito-byte-buddy-agent.jar"],
+}
